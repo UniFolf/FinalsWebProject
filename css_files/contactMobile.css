@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+  .headerNavLinks {
+    display: none;
+  }
+
+  .headerBar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobileNav img {
+    margin-right: 30px;
+  }
+
+  .mobileNav {
+    display: flex;
+    justify-self: end;
+  }
+
+  .mobileNavBG {
+    background-color: #f8f2ef;
+  }
+}

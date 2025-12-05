@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cozy Nook - Home</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css_files/home.css" />
+    <link rel="stylesheet" href="css_files/homeMobile.css" />
+  </head>
+  <body>
+    <!--Header Bar-->
+    <div class="d-flex align-items-center gap-3 headerBar">
+      <!--Logo-->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img
+            src="img/Logo.jpg"
+            alt="Cozy Nook Logo"
+            style="width: 60px; height: 60px; object-fit: cover"
+            class="rounded"
+        /></a>
+      </li>
+      <!--Nav Links-->
+      <ul class="nav nav-pills headerNavLinks">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!--Nav Links-->
+
+      <!--Mobile Nav-->
+      <div class="mobileNav">
+        <img
+          src="img/list.svg"
+          class="img-thumbnail p-2"
+          alt="Mobile Nav"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        />
+      </div>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cozy Nook</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="sidebarLinks">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Mobile Nav-->
+
+    <div class="banner">
+      <img src="img/Background.jpg" class="img-fluid" alt="Background" />
+    </div>
+
+    <br />
+    <br />
+    <p class="display-1" style="text-align: center">Cozy Nook</p>
+    <p class="lead" style="text-align: center">Comfort Beyond Delight</p>
+    <hr />
+
+    <p class="lead" style="text-align: center">
+      UST Multi-Level Car Parking <br />
+      Monday to Saturday, 6:00 AM - 9:30 PM <br />
+      Sunday 6:00 AM to 7:00 PM
+    </p>
+
+    <div class="text-center">
+      <a href="menu.html" class="btn btn-primary btn-lg">Visit Our Menu</a>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!--Promo Card-->
+    <div class="card mb-3 promoCard w-75">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="img/xmas_seasonal.jpg"
+            class="img-fluid rounded-start"
+            alt="Seasonal"
+          />
+        </div>
+        <div class="col-md-8 align-self-center justify-content-center">
+          <div class="card-body">
+            <h5 class="card-title">Seasonal</h5>
+            <p class="card-text">
+              Proof that good things come in small packages! 🎁 Our Christmas
+              Bento Mini Cake delivers maximal joy in every festive bite. ☃️🎄
+              Treat yourself today!
+            </p>
+            <div class="text-center">
+              <a class="btn btn-primary btn-lg" href="menu.html">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!--Gallery-->
+    <div class="container text-center homeGallery">
+      <div class="row">
+        <div class="col">
+          <img
+            src="img/img_l_1.jpg"
+            class="img-fluid rounded-start"
+            alt="1 of 2"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="img/img_l_2.jpg"
+            class="img-fluid rounded-start"
+            alt="2 of 2"
+          />
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col">
+          <img
+            src="img/img_p_1.jpg"
+            class="img-fluid rounded-start"
+            alt="2 of 2"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="img/img_p_6.jpg"
+            class="img-fluid rounded-start"
+            alt="2 of 2"
+          />
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!--Footer Bar-->
+    <div class="d-flex footerBar">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img
+            src="img/Logo.jpg"
+            alt="Cozy Nook Logo"
+            style="width: 40px; height: 40px; object-fit: cover"
+            class="rounded"
+        /></a>
+      </li>
+    </div>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

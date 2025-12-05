@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cozy Nook - Contact</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css_files/contact.css" />
+    <link rel="stylesheet" href="css_files/aboutMobile.css" />
+  </head>
+  <body>
+    <!--Header Bar-->
+    <div class="d-flex align-items-center gap-3 headerBar">
+      <!--Logo-->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img
+            src="img/Logo.jpg"
+            alt="Cozy Nook Logo"
+            style="width: 60px; height: 60px; object-fit: cover"
+            class="rounded"
+        /></a>
+      </li>
+      <!--Nav Links-->
+      <ul class="nav nav-pills headerNavLinks">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <!--Nav Links-->
+
+      <!--Mobile Nav-->
+      <div class="mobileNav">
+        <img
+          src="img/list.svg"
+          class="img-thumbnail p-2"
+          alt="Mobile Nav"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        />
+      </div>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cozy Nook</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="sidebarLinks">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Mobile Nav-->
+
+    <div class="container px-4 text-left">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="p-3">
+            <h1>Contact Info</h1>
+            <hr />
+            <div class="row align-items-center">
+              <div class="col-md-1">
+                <img
+                  src="img/pin-map-fill.svg"
+                  class="img-thumbnail"
+                  alt="Location"
+                />
+              </div>
+
+              <div class="col-md-8">
+                <p class="lead">
+                  UST Multi-Deck Carpark, Sampaloc, 1008 Metro Manila
+                </p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-md-1">
+                <img
+                  src="img/telephone-fill.svg"
+                  class="img-thumbnail"
+                  alt="Telephone"
+                />
+              </div>
+
+              <div class="col-md-8">
+                <p class="lead">0956 675 5999</p>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-md-1">
+                <img
+                  src="img/envelope-at-fill.svg"
+                  class="img-thumbnail"
+                  alt="Email"
+                />
+              </div>
+
+              <div class="col-md-8">
+                <p class="lead">goldenflavoursph@gmail.com</p>
+              </div>
+            </div>
+            <br />
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <a
+                    href="https://www.facebook.com/cozynookphil"
+                    target="_blank"
+                    ><img src="img/facebook.svg" class="rounded" alt="facebook"
+                  /></a>
+                </div>
+                <div class="col">
+                  <a
+                    href="https://www.instagram.com/cozynookph/"
+                    target="_blank"
+                    ><img
+                      src="img/instagram.svg"
+                      class="rounded"
+                      alt="instagram"
+                  /></a>
+                </div>
+                <div class="col">
+                  <a href="https://www.tiktok.com/@cozynookph" target="_blank"
+                    ><img src="img/tiktok.svg" class="rounded" alt="tiktok"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Contact Form-->
+        <div class="col contactForm">
+          <div class="p-3">
+            <h1>Contact Us</h1>
+            <hr />
+
+            <form>
+              <div class="mb-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="John/Jane Doe"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer Bar-->
+    <div class="d-flex footerBar fixed-bottom">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img
+            src="img/Logo.jpg"
+            alt="Cozy Nook Logo"
+            style="width: 40px; height: 40px; object-fit: cover"
+            class="rounded"
+        /></a>
+      </li>
+    </div>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

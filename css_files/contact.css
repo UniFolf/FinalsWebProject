@@ -1,0 +1,58 @@
+body {
+  background-color: #f8f2ef;
+}
+
+.headerBar {
+  background-color: #a77252;
+}
+
+.contactForm {
+  background-color: #e9d0b9;
+  max-height: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.footerBar {
+  background-color: #a77252;
+}
+
+.headerNavLinks a {
+  color: #f8f2ef;
+}
+
+.sidebarLinks a {
+  color: #5f524c;
+  font-size: 2rem;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #8c904d;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #5f524c;
+}
+
+.btn,
+.btn-primary,
+.btn-lg {
+  background-color: #8c904d;
+  border: #8c904d;
+}
+
+.btn:hover,
+.btn-primary:hover,
+.btn-lg:hover {
+  background-color: #5c7134;
+}
+
+p,
+h1 {
+  color: #5f524c;
+}
+
+.mobileNav {
+  display: none;
+}

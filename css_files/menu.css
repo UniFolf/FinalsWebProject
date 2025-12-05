@@ -1,0 +1,55 @@
+body {
+  background-color: #f8f2ef;
+}
+
+.headerBar {
+  background-color: #a77252;
+}
+
+.footerBar {
+  background-color: #a77252;
+}
+
+.headerNavLinks a {
+  color: #f8f2ef;
+}
+
+.sidebarLinks a {
+  color: #5f524c;
+  font-size: 2rem;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #8c904d;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #5f524c;
+}
+
+p,
+h5,
+h4 {
+  color: #5f524c;
+}
+
+.menuScrollspy {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.menuScrollspy a {
+  color: #5f524c;
+}
+.menuScrollspy a:hover {
+  color: #231b17;
+}
+
+.scrollspyBG {
+  background-color: #e9d0b9;
+}
+
+.mobileNav {
+  display: none;
+}

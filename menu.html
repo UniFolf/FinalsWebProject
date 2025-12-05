@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cozy Nook - Menu</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css_files/menu.css" />
+    <link rel="stylesheet" href="css_files/menuMobile.css" />
+  </head>
+  <body>
+    <!--Header Bar-->
+    <div class="d-flex align-items-center gap-3 headerBar">
+      <!--Logo-->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img
+            src="img/Logo.jpg"
+            alt="Cozy Nook Logo"
+            style="width: 60px; height: 60px; object-fit: cover"
+            class="rounded"
+        /></a>
+      </li>
+      <!--Nav Links-->
+      <ul class="nav nav-pills headerNavLinks">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="menu.html"
+            >Menu</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!--Nav Links-->
+
+      <!--Mobile Nav-->
+      <div class="mobileNav">
+        <img
+          src="img/list.svg"
+          class="img-thumbnail p-2"
+          alt="Mobile Nav"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        />
+      </div>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cozy Nook</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="sidebarLinks">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Mobile Nav-->
+
+    <!--Menu Scrollspy-->
+    <div class="row menuScrollspy">
+      <div class="col-3 scrollspyBG sidebar">
+        <nav
+          id="navbar-example3"
+          class="h-100 flex-column align-items-stretch pe-4 border-end"
+        >
+          <h4 class="ms-2 mt-2">Menu</h4>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Featured</a>
+            <a class="nav-link" href="#item-2">Beverages</a>
+            <a class="nav-link" href="#item-3">Meals</a>
+            <a class="nav-link" href="#item-4">Pastries</a>
+          </nav>
+        </nav>
+      </div>
+
+      <div class="col-8 main-content">
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-example3"
+          data-bs-smooth-scroll="true"
+          class="scrollspy-example-2 mt-3"
+          tabindex="0"
+        >
+          <div id="item-1">
+            <h4>Featured</h4>
+            <hr />
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/xmas_seasonal.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Christmas Mini Bento Cake"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Christmas Bento Mini Cakes</h5>
+                    <p class="card-text">
+                      Proof that good things come in small packages! 🎁 Our
+                      Christmas Bento Mini Cake delivers maximal joy in every
+                      festive bite. ☃️🎄 Treat yourself today
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <div id="item-2">
+            <h4>Beverages</h4>
+            <hr />
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/CaramelMachiatto.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Caramel Machiatto"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Caramel Macchiato</h5>
+                    <p class="card-text">Price: Hot - ₱175 Iced - ₱200</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/WhiteMallows.jpg"
+                    class="img-fluid rounded-start"
+                    alt="White Mallows"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">White Mallows</h5>
+                    <p class="card-text">Price: ₱205</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/LycheeStrawberry.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Lychee and Strawberry"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Lychee & Strawberry</h5>
+                    <p class="card-text">Price: ₱188</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <div id="item-3">
+            <h4>Meals</h4>
+            <hr />
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/SkinlessLongganisa.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Skinless Longganisa"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Skinless Longganisa</h5>
+                    <p class="card-text">Price: ₱358</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/CozyNachos.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Cozy Nachos"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Cozy Nachos</h5>
+                    <p class="card-text">Price: ₱318</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/ChicNFries.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Chick N Fries"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Chic N' Fries</h5>
+                    <p class="card-text">Price: ₱338</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <div id="item-4">
+            <h4>Pastries</h4>
+            <hr />
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/CrunchyPistachioTub.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Crunchy Pistachio Tub"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Crunchy Pistachio Tub</h5>
+                    <p class="card-text">Price: ₱288</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/BlueberryCheesecake.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Blueberry Cheesecake"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Blueberry Cheesecake</h5>
+                    <p class="card-text">Price: Slice - ₱175 Whole - ₱1050</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+            <!-- Card -->
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/menuItems/MangoReamCake.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Mango Dream Cake"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Mango Dream Cake</h5>
+                    <p class="card-text">Price: Slice - ₱185 Whole - ₱1100</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer Bar-->
+    <div class="d-flex footerBar">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <img
+            src="img/Logo.jpg"
+            alt="Cozy Nook Logo"
+            style="width: 40px; height: 40px; object-fit: cover"
+            class="rounded"
+        /></a>
+      </li>
+    </div>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
